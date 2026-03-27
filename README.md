@@ -630,7 +630,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Project Maintainer**: Ansh Verma
 **Email**: 07anshverma@gmail.com  
-**GitHub**: [@yourusername](https://github.com/ansh07verma)
+**GitHub**: [@ansh07verma](https://github.com/ansh07verma)
 
 For bug reports and feature requests, please open an issue on GitHub.
 
