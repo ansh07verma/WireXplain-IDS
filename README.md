@@ -279,7 +279,7 @@ Where:
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/WireXplain-IDS.git
+git clone https://github.com/ansh07verma/WireXplain-IDS.git
 cd WireXplain-IDS
 ```
 
@@ -606,7 +606,7 @@ If you use WireXplain-IDS in your research, please cite:
   title={WireXplain-IDS: Explainable Intrusion Detection System},
   author={Your Name},
   year={2026},
-  url={https://github.com/yourusername/WireXplain-IDS}
+  url={https://github.com/ansh07verma/WireXplain-IDS.git}
 }
 ```
 
@@ -628,13 +628,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-**Project Maintainer**: Your Name  
-**Email**: your.email@example.com  
-**GitHub**: [@yourusername](https://github.com/yourusername)
+**Project Maintainer**: Ansh Verma
+**Email**: 07anshverma@gmail.com  
+**GitHub**: [@yourusername](https://github.com/ansh07verma)
 
 For bug reports and feature requests, please open an issue on GitHub.
 
 ---
 
-**Last Updated**: February 2026  
+**Last Updated**: March 2026  
 **Version**: 1.0.0
