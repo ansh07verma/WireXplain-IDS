@@ -9,7 +9,7 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-> **Final Year ECE Project** — A production-grade intrusion detection system that captures live network traffic, detects attacks using multiple AI models, and explains *why* each decision was made.
+A production-grade intrusion detection system that captures live network traffic, detects attacks using multiple AI models, and explains *why* each decision was made.
 
 ![WireXplain Dashboard](https://img.shields.io/badge/Status-Active-brightgreen)
 
