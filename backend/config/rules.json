@@ -1,0 +1,51 @@
+[
+  {
+    "id": "SIG-001",
+    "name": "Metasploit Default Port",
+    "severity": "critical",
+    "conditions": [
+      { "field": "Dst Port", "operator": "==", "value": 4444 }
+    ]
+  },
+  {
+    "id": "SIG-002",
+    "name": "IRC Botnet C&C Port",
+    "severity": "high",
+    "conditions": [
+      { "field": "Dst Port", "operator": "==", "value": 6667 }
+    ]
+  },
+  {
+    "id": "SIG-003",
+    "name": "Telnet Plaintext Auth",
+    "severity": "medium",
+    "conditions": [
+      { "field": "Dst Port", "operator": "==", "value": 23 }
+    ]
+  },
+  {
+    "id": "SIG-004",
+    "name": "High Packet Rate (Possible DoS)",
+    "severity": "high",
+    "conditions": [
+      { "field": "Tot Fwd Pkts", "operator": ">=", "value": 1000 },
+      { "field": "Flow Duration", "operator": "<", "value": 1000000 }
+    ]
+  },
+  {
+    "id": "SIG-005",
+    "name": "Excessive SYN Flags (SYN Flood)",
+    "severity": "critical",
+    "conditions": [
+      { "field": "SYN Flag Cnt", "operator": ">", "value": 100 }
+    ]
+  },
+  {
+    "id": "SIG-006",
+    "name": "Large Data Exfiltration (Outbound)",
+    "severity": "high",
+    "conditions": [
+      { "field": "TotLen Fwd Pkts", "operator": ">", "value": 5000000 }
+    ]
+  }
+]

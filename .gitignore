@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.log
+
+# Trained models (too large for git — regenerate with Pipeline)
+backend/models/*.pkl
+backend/models/feature_names.json
+backend/models/feature_selector.json
+backend/models/last_metrics.json
+
+# Datasets (too large for git — download separately)
+backend/data/raw/*.csv
+backend/data/processed/
+
+# Databases (auto-created at runtime)
+backend/data/*.db
+
+# Secrets
+backend/.env
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
